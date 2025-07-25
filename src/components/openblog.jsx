@@ -61,7 +61,7 @@ function OpenBlog() {
                 
               
                 <div className='flex items-center justify-between text-sm mb-4'>
-                  <div className='flex items-center lg:gap-[48vw] gap-[42vw]'>
+                  <div className='flex items-center lg:gap-[49vw] gap-[42vw]'>
                     <span className={`transition-colors duration-300 text-[12px] font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>{blog.Date}</span>
 
                     <span className={`transition-colors duration-300 font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>5 min ago</span>
