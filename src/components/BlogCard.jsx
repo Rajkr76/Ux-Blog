@@ -69,7 +69,7 @@ const blogData = {
 
 const BlogCard = ({ blog }) => {
   return (
-    <div className="bg-transparent overflow-hidden hover:shadow-xl transition-shadow duration-300 ">
+    <div className="bg-transparent overflow-hidden   ">
       
       <div className='block'>
         <h1  className='font-mono mb-3 text-xl '>{blog.categories}</h1>
@@ -83,7 +83,7 @@ const BlogCard = ({ blog }) => {
         />
       </div>
      
-      <div className="bg-transparent py-2 h-[160px] relative hover:px-2 transition-py duration-300 lg:text-justify sm:h-[180px] md:h-[180px] ">
+      <div className="bg-transparent py-2 h-[160px] relative  lg:text-justify sm:h-[180px] md:h-[180px] ">
         
         <h2 className="font-medium font-mono text-[12px] text-gray-600 mb-2 ">
           {blog.Date}
