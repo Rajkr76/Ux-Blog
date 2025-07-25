@@ -56,12 +56,12 @@ function OpenBlog() {
                 />
               </div>
 
-              <div className='mb-4 px-1 relative'>
+              <div className='mb-4 px-1 '>
                 <h1 className={`text-2xl   font-bold mb-2 transition-colors font-mono duration-300 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>{blog.subtitle}</h1>
-                <FontAwesomeIcon icon={faArrowRight}  size="xl" className={`absolute right-2 top-1/3 transform -translate-y-1/2 ${isDarkMode ? 'text-gray-50':'text-gray-900'}  `} /> 
-               <FontAwesomeIcon icon={faArrowRight} style={{ transform: "rotate(180deg)"}} size="xl" className={`absolute right-10 top-1/3 transform -translate-y-1/2 ${isDarkMode ? 'text-gray-50':'text-gray-900'} `}/>
+                
+              
                 <div className='flex items-center justify-between text-sm mb-4'>
-                  <div className='flex items-center gap-[40vw] '>
+                  <div className='flex items-center lg:gap-[48vw] gap-[42vw]'>
                     <span className={`transition-colors duration-300 text-[12px] font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>{blog.Date}</span>
 
                     <span className={`transition-colors duration-300 font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>5 min ago</span>
