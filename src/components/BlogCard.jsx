@@ -638,7 +638,7 @@ const BlogCard = ({ blog }) => {
 
 const BlogSection = () => {
   return (
-    <section className="py-4 px-6 sm:px-6 lg:px-6  bg-gray-50">
+    <section className="py-4 px-8 sm:px-6 lg:px-6  bg-gray-50">
       <div className="max-w-[1450px] mx-auto">
         <h1 className='font-mono text-2xl mb-8 lg:px-0 sm:px-6  '>Categories</h1>
 
