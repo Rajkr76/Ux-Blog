@@ -11,7 +11,7 @@ const blogData = {
       Date: "# DATE: 03/03/25",
       categories:"Stories",
       subtitle: "M_001",
-      preview: "Lorem Ipsum is simply dummy text of the printing...", 
+      preview: "🤖 Will AI Replace Humans? Read my blog  to know about human efficiency", 
       description: `<p><strong>🤖 Will AI Replace Humans?</strong></p>
 
 <p><strong>📥 Introduction</strong><br/>
@@ -70,7 +70,7 @@ AI's rapid advancement is reshaping work, but wholesale replacement of humans is
        Date: "# DATE: 22/02/23",
        categories:"Inspiration",
       subtitle: "M_002", 
-       preview: "Lorem Ipsum is simply dummy text of the printing...",
+       preview: "🌱 The Future of Sustainable Living: Small Changes, Big Impact",
       description: `<p><strong>🌱 The Future of Sustainable Living: Small Changes, Big Impact</strong></p>
 
 <p><strong>🌍 Introduction</strong><br/>
@@ -149,7 +149,7 @@ The journey toward sustainable living is not about achieving perfection overnigh
        Date: "# DATE: 11/06/25",
        categories:"Health",
       subtitle: "M_003",
-       preview: "Lorem Ipsum is simply dummy text of the printing...",
+       preview: "💻 The Rise of No-Code Platforms: Democratizing Software Development",
       description: `<p><strong>💻 The Rise of No-Code Platforms: Democratizing Software Development</strong></p>
 
 <p><strong>🚀 Introduction</strong><br/>
@@ -247,7 +247,7 @@ The no-code revolution is not just a technological trend—it's a fundamental sh
       Date: "# DATE: 15/09/25",
       categories:"Stories",
       subtitle: "M_004",
-       preview: "Lorem Ipsum is simply dummy text of the printing...",
+       preview: "🎓 The Complete Guide to Thriving in College: Beyond Grades and Textbooks",
       description: `<p><strong>🎓 The Complete Guide to Thriving in College: Beyond Grades and Textbooks</strong></p>
 
 <p><strong>🚀 Introduction</strong><br/>
@@ -370,7 +370,7 @@ College is a unique opportunity to explore, grow, and prepare for your future wh
       Date: "# DATE: 12/04/25",
       categories:"Health",
       subtitle: "M_005",
-       preview: "Lorem Ipsum is simply dummy text of the printing...",
+       preview: "🧠 The Science of Building Unbreakable Habits: Transform Your Life One Day at a Time",
       description: `<p><strong>🧠 The Science of Building Unbreakable Habits: Transform Your Life One Day at a Time</strong></p>
 
 <p><strong>✨ Introduction</strong><br/>
@@ -473,7 +473,7 @@ The science of habit formation reveals a powerful truth: we are not victims of o
       Date: "# DATE: 25/09/25",
        categories:"Inspiration",
       subtitle: "M_006",
-       preview: "Lorem Ipsum is simply dummy text of the printing...",
+       preview: "🚀 The Entrepreneur's Playbook: From Side Hustle to Success Story",
       description: `<p><strong>🚀 The Entrepreneur's Playbook: From Side Hustle to Success Story</strong></p>
 
 <p><strong>💡 Introduction</strong><br/>
@@ -604,7 +604,7 @@ const BlogCard = ({ blog }) => {
         />
       </div>
      
-      <div className="bg-transparent py-2 h-[160px] relative  lg:text-justify sm:h-[180px] md:h-[180px] ">
+      <div className="bg-transparent py-2 h-[200px] relative  lg:text-justify sm:h-[180px] md:h-[180px] ">
         
         <h2 className="font-medium font-mono text-[12px] text-gray-600 mb-2 ">
           {blog.Date}
@@ -638,11 +638,11 @@ const BlogCard = ({ blog }) => {
 
 const BlogSection = () => {
   return (
-    <section className="py-3 px-0 sm:px-6 lg:px-1  bg-gray-50">
-      <div className="max-w-7xl mx-auto">
-        <h1 className='font-mono text-2xl mb-5 px-5 sm:px-6 lg:px-1 relative lg:right-24'>Categories</h1>
+    <section className="py-4 px-6 sm:px-6 lg:px-6  bg-gray-50">
+      <div className="max-w-[1450px] mx-auto">
+        <h1 className='font-mono text-2xl mb-8 lg:px-0 sm:px-6  '>Categories</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-80 gap-y-12 justify-items-center">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-x-40 lg:gap-y-12 gap-y-8">
           {blogData.blogs.map((blog) => (
             <BlogCard key={blog.id} blog={blog} />
           ))}
